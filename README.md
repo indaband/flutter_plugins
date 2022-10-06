@@ -1,6 +1,7 @@
 # :warning: It's a fork of flutter/plugins
 The following changes were necessary to adapt the code to our needs:
-[video_player] [98e0ca1](https://github.com/indaband/flutter_plugins/commit/98e0ca1fa4282a6b6c4277edf5ecb7ed6391f807): Removed AudioSession configuration on iOS.
+
+- [video_player] [98e0ca1](https://github.com/indaband/flutter_plugins/commit/98e0ca1fa4282a6b6c4277edf5ecb7ed6391f807): Removed AudioSession configuration on iOS.
 
 # Flutter plugins
 

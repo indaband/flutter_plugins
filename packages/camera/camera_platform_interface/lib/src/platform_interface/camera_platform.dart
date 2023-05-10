@@ -11,7 +11,6 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import '../../camera_platform_interface.dart';
 import '../method_channel/method_channel_camera.dart';
-import '../types/video_capture_options.dart';
 
 /// The interface that implementations of camera must implement.
 ///
@@ -268,6 +267,12 @@ abstract class CameraPlatform extends PlatformInterface {
   /// Resume the paused preview for the selected camera.
   Future<void> resumePreview(int cameraId) {
     throw UnimplementedError('pausePreview() is not implemented.');
+  }
+
+  /// Sets the active camera while recording.
+  Future<void> setDescriptionWhileRecording(CameraDescription description) {
+    throw UnimplementedError(
+        'setDescriptionWhileRecording() is not implemented.');
   }
 
   /// Returns a widget showing a live camera preview.
